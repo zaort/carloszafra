@@ -2,7 +2,8 @@ import { Link } from 'react-router-dom';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav({ currentPage }) {
-  const pages = ['portfolio', 'contact', 'resume'];
+  const pages = ['portfolio', 'resume'];
+  // contact to be added on the pages
 
   return (
     <nav>

@@ -4,16 +4,16 @@ function Footer() {
   const icons = [
     {
       name: "fab fa-github",
-      link: "https://github.com/"
+      link: "https://github.com/zaort"
     },
     {
       name: "fab fa-linkedin",
-      link: "https://www.linkedin.com/"
-    },
-    {
-      name: "fab fa-stack-overflow",
-      link: "https://stackoverflow.com/"
+      link: "https://www.linkedin.com/in/czo/"
     }
+    // {
+    //   name: "fab fa-stack-overflow",
+    //   link: "https://stackoverflow.com/"
+    // }
   ]
 
   return (
@@ -22,7 +22,7 @@ function Footer() {
       (
         <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer"><i className={icon.name}></i></a>
       )
-        )}
+      )}
     </footer>
   );
 }

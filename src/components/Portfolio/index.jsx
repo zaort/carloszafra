@@ -12,29 +12,29 @@ function Portfolio() {
       repo: "https://github.com/JerryChowMX/Resetario"
     },
     {
-      name: 'pastelPuzzels',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'toDone',
+      description: 'MVC, Handlebars, SQL',
+      link: "https://todonevf-6aecf37fb01a.herokuapp.com/",
+      repo: "https://github.com/zaort/todone"
     },
     {
-      name: 'runBuddy',
-      description: 'HTML/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'capiii',
+      description: 'MERN Stack, Tailwind, Graphql',
+      link: "https://capiii.onrender.com/",
+      repo: "https://github.com/zaort/capiii"
     },
-    {
-      name: 'ledWall',
-      description: 'Node/IoT',
-      link: "https://github.com",
-      repo: "https://github.com"
-    },
-    {
-      name: 'calculator',
-      description: 'React/JavaScript/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
-    },
+    // {
+    //   name: 'ledWall',
+    //   description: 'Node/IoT',
+    //   link: "https://github.com",
+    //   repo: "https://github.com"
+    // },
+    // {
+    //   name: 'calculator',
+    //   description: 'React/JavaScript/CSS',
+    //   link: "https://github.com",
+    //   repo: "https://github.com"
+    // },
   ]);
 
   return (
